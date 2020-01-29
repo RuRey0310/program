@@ -1,6 +1,6 @@
 /* 共通部分のHTMLファイルの読み込み */
 $(function header() {
-  $('#header').load('header.html');
+  $('#header').load('header.php');
   $('#Forms').load('forms.html');
   $('#SVGs').load('SVG.html');
 });

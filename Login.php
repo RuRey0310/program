@@ -51,12 +51,6 @@ if (isset($_POST["login"])) {
                     $sendname = $row['name'];
                     header("Location: index.html");  // メイン画面へ遷移
 
-                    $file = fopen("data.txt","w");
-
-                    fwrite($file, $sendname);
-
-                    fclose($file);
-
                     exit();  // 処理終了
                 } else {
                     // 認証失敗
@@ -79,7 +73,7 @@ if (isset($_POST["login"])) {
 
 <link rel="stylesheet" href="Login.css"  />
 <script src="JS/jquery-3.4.1.min.js"></script>
-
+<title>サインイン</title>
 <div class="login">
     <h1>サインイン</h1>
     <form method="post">

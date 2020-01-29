@@ -24,29 +24,24 @@
         <div class="profile-content">
           <span class="profile-name" id="name"></span>
           <span class="profile-job">ゲスト</span>
-          <span class="profile-intro">よろしくお願いします。</span>
-          <button
-            type="button"
-            name="name"
-            value="value"
-            class="btn-push"
-            onclick="logout()"
+          <span align="center" class="profile-intro"
+            >よろしくお願いします。</span
           >
-            ログアウト
-          </button>
+          <form action="logout.php">
+            <div style="text-align: center;">
+              <input
+                type="submit"
+                name="name"
+                value="ログアウト"
+                class="btn-push"
+              />
+            </div>
+          </form>
         </div>
       </div>
     </div>
-
-    <script>
-      function logout() {
-        $.ajax({
-          url: 'jsondel.php',
-          success: function(data) {
-            window.location.href = 'index.html';
-          },
-        });
-      }
-    </script>
+    <div align="center" style="font-size: 30px;">
+      履歴実装予定
+    </div>
   </body>
 </html>

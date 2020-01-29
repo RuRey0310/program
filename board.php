@@ -70,6 +70,8 @@ if( !empty($_POST['btn_submit']) ) {
 			// データベースの接続を閉じる
 			$mysqli->close();
 		}
+
+		header('Location: board.php');
 	}
 }
 
@@ -121,7 +123,14 @@ if( $mysqli->connect_errno ) {
 <form method="post">
 	<div>
 		<label for="view_name">表示名</label>
-		<input id="view_name" type="text" name="view_name" value="<?php if( !empty($_SESSION['view_name']) ){ echo $_SESSION['view_name']; } ?>">
+		<input id="view_name" type="text" name="view_name" value="<?php 
+		if(isset($_SESSION['NAME'])){ 
+			echo $_SESSION['NAME']; 
+		} 
+		else{
+			echo "ゲスト";
+		}
+		?>" readonly>
 	</div>
 	<div>
 		<label for="message">メッセージ</label>
