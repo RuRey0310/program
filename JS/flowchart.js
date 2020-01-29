@@ -431,7 +431,7 @@ $(function() {
 });
 
 $(function() {
-  $('.toolclass').tooltip({
+  $('.dragArea').tooltip({
     position: {
       my: 'left center',
       at: 'right center',
