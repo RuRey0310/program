@@ -49,7 +49,6 @@ if (isset($_POST["login"])) {
                     }
                     $_SESSION["NAME"] = $row['name'];
                     $sendname = $row['name'];
-                    
                     header("Location: index.html");  // メイン画面へ遷移
 
                     $file = fopen("data.txt","w");
