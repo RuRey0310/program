@@ -214,6 +214,7 @@ $(function() {
       ui.item.attr('id', newItem);
       ui.item.addClass('context-menu-one');
       ui.item.addClass('lead-line-list');
+      const clonetitle = ui.item.attr('title');
       if (ui.item.attr('id') == 1) {
         ui.item.attr('title', 'フローチャートの開始');
       } else if (ui.item.attr('id') == 2) {
@@ -235,6 +236,8 @@ $(function() {
       } else if (ui.item.attr('id') == 15) {
         ui.item.attr('title', 'ifの条件式が偽');
       }
+      const clonesvg = $('#SVGs').find('#' + newItem);
+      clonesvg.attr('title', clonetitle);
     },
   });
 });
