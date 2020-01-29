@@ -118,9 +118,6 @@ article p {
   line-height: 1.6em;
 }
 @media only screen and (max-width: 1000px) {
-  body {
-    padding: 30px 5%;
-  }
   input[type='text'] {
     width: 100%;
   }
@@ -129,11 +126,4 @@ article p {
     max-width: 100%;
     height: 70px;
   }
-}
-
-* {
-  margin: 0;
-  /*全要素のマージン・パディングをリセット*/
-  line-height: 1.5; /*全要素の行の高さを1.5倍にする*/
-  color: #333333; /*文字色*/
 }
