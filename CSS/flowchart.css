@@ -86,6 +86,19 @@ body {
   align-items: center;
   width: 15rem;
 }
+#tutorial {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+#tutorial:hover {
+  cursor: pointer;
+}
+#tutorial g path {
+  fill: rgb(210, 210, 210);
+}
+#tutorial:hover g path {
+  fill: rgb(210, 110, 110);
+}
 
 .side:nth-child(1) > table > tbody > tr > td > svg {
   padding: 2px;
