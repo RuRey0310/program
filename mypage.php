@@ -25,6 +25,7 @@
         <div class="profile-content">
           <span class="profile-name" id="name"></span>
           <span class="profile-job"><font size="5"><?php
+            session_start();
             if(isset($_SESSION['NAME'])){
               echo $_SESSION['NAME'];
             }    
