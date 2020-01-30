@@ -2,7 +2,7 @@
 div.flowchart {
   flex-basis: 75rem;
   justify-content: space-evenly;
-  background-color: lightgreen;
+  background-color: rgba(144, 238, 144, 0.5);
 }
 div.program {
   text-align: left;
@@ -16,7 +16,6 @@ div.program {
   color: #333333; /*文字色*/
 }
 main {
-  height: 29rem;
   display: flex;
   justify-content: space-between;
 }
@@ -40,10 +39,10 @@ main {
   background-color: rgba(0, 0, 0, 0.6);
 }
 table {
-  height: 49rem;
+  height: 54rem;
 }
 td {
-  border: solid 1px cornflowerblue;
+  border: solid 1px rgba(100, 148, 237, 0.6);
   text-align: center;
 }
 .side {
@@ -51,7 +50,7 @@ td {
   display: flex;
   overflow: auto;
   margin: 0.8rem;
-  height: 52rem;
+  height: 55rem;
   border-radius: 10px;
   justify-content: space-evenly;
 }
@@ -76,10 +75,10 @@ td {
 .side:nth-child(1) {
   flex-basis: 80rem;
   justify-content: space-evenly;
-  background-color: cornflowerblue;
+  background-color: rgba(100, 148, 237, 0.1);
 }
 .side:nth-child(1) > table > tbody > tr > td {
-  background-color: dodgerblue;
+  background-color: rgba(30, 144, 255, 0.6);
   align-items: center;
   width: 15rem;
 }
@@ -105,7 +104,7 @@ td {
   flex-basis: 20rem;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: cadetblue;
+  background-color: rgba(95, 158, 160, 0.6);
 }
 .side:nth-child(2) > svg {
   padding: 0.2rem;

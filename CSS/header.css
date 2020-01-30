@@ -1,10 +1,11 @@
 /*メニューバー*/
 #header {
   display: flex;
-  flex-direction: row;
-  height: 5vh;
   padding: 0;
   background-color: #1b2538;
+}
+#header div {
+  display: flex;
 }
 #header div:last-of-type {
   margin-left: auto;
@@ -13,11 +14,13 @@
   border-left: none;
 }
 #header div a {
-  display: block;
+  line-height: 5vh;
+  vertical-align: middle;
   border-right: solid 1px #bbbbbb;
   color: white;
+  padding-left: 14px;
+  padding-right: 14px;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 #header div a:hover:not(.active) {

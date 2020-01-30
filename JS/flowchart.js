@@ -14,7 +14,7 @@ $(function() {
   // 表作成
   const rend = 15; // 行
   const cend = 5; // 列
-  const tableJQ = $('<table cellpadding="15" bordercolor="#37a1e5"> <tbody>');
+  const tableJQ = $('<table cellpadding="20" bordercolor="#37a1e5"> <tbody>');
   for (let r = 0; r < rend; r++) {
     const trJQr = $('<tr></tr>').appendTo(tableJQ);
     for (let c = 0; c < cend; c++) {
