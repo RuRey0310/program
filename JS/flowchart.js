@@ -427,7 +427,7 @@ $(function() {
 $(function() {
   $('.table, .dragArea, #tutorial').tooltip({
     position: {
-      my: 'left center + 10',
+      my: 'left center',
       at: 'right+20 center',
     },
   });
