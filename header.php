@@ -27,7 +27,7 @@
             echo "mypage.html";
         }
         else{
-            echo "login.php";
+            echo "Login.php";
         }
         ?>
     ">
