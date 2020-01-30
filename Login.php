@@ -71,7 +71,7 @@ if (isset($_POST["login"])) {
 }
 ?>
 
-<link rel="stylesheet" href="Login.css"  />
+<link rel="stylesheet" href="CSS/Login.css"  />
 <script src="JS/jquery-3.4.1.min.js"></script>
 <title>サインイン</title>
 <div class="login">
