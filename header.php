@@ -24,7 +24,7 @@
 <div>
   <a class="menu" id="Sign" href="<?php
         if(isset($_SESSION['NAME'])){
-            echo "mypage.html";
+            echo "mypage.php";
         }
         else{
             echo "Login.php";
