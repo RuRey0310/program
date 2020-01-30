@@ -5,7 +5,8 @@
   <a class="menu" href="flowchart.html">フローチャート</a>
 </div>
 <div>
-  <a class="menu" href="<?php
+  <a class="menu" href="
+  <?php
     session_start();
     if(isset($_SESSION['NAME'])){
         if($_SESSION['NAME'] == 'rakurakupgadmin'){
@@ -18,8 +19,10 @@
     else{
         echo "board.php";
     }
-    ?>
-  ">掲示板</a>
+  ?>
+  ">
+    掲示板
+  </a>
 </div>
 <div>
   <a class="menu" id="Sign" href="<?php

@@ -425,19 +425,10 @@ $(function() {
 
 // tooltip
 $(function() {
-  $('.table').tooltip({
+  $('.table, .dragArea, #tutorial').tooltip({
     position: {
-      my: 'left center',
-      at: 'right center',
-    },
-  });
-});
-
-$(function() {
-  $('.dragArea').tooltip({
-    position: {
-      my: 'left center',
-      at: 'right center',
+      my: 'left center + 10',
+      at: 'right+20 center',
     },
   });
 });
