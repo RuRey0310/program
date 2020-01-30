@@ -24,9 +24,17 @@
         </div>
         <div class="profile-content">
           <span class="profile-name" id="name"></span>
-          <span class="profile-job">ゲスト</span>
+          <span class="profile-job"><font size="5"><?php
+            if(isset($_SESSION['NAME'])){
+              echo $_SESSION['NAME'];
+            }    
+            else{
+              echo "ゲスト";
+            }
+          ?>
+          </font></span>
           <span align="center" class="profile-intro"
-            >よろしくお願いします。</span
+            ><font size="5">よろしくお願いします。</font></span
           >
           <form action="logout.php">
             <div style="text-align: center;">
