@@ -14,6 +14,7 @@
     <script src="JS/mypage.js"></script>
   </head>
   <body>
+    <div class="background">
     <div id="header"></div>
 
     <div class="profile-card">
@@ -42,9 +43,10 @@
     </div>
     <div align="center" style="font-size: 30px;">
       <p>
-        履歴実装予定<br />
-        Coming Soon...
+        <br/><br />
+            Coming Soon...
       </p>
     </div>
+  </div>
   </body>
 </html>
